@@ -1,28 +1,7 @@
-ul, ul li {
-list-style: none;
-}
-
- html, body {
+.page {
   height: 100%;
 	width: 100%;
-	line-height: 1;
-	font-size: 14px;
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-size:inherit;
-  font-weight: 400;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-
-.page {
+  -webkit-text-size-adjust: 100%;
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -72,10 +51,12 @@ a:hover {
   z-index: 3;
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__square-pic {
@@ -117,6 +98,7 @@ a:hover {
   color: #2f80ed;
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 .two-columns__main-text {
@@ -131,6 +113,7 @@ a:hover {
   line-height: 34px;
   margin: 0 0 30px 0;
   padding: 0;
+  font-weight: 400;
 }
 
 .two-columns__paragraph:last-child {
@@ -171,6 +154,7 @@ a:hover {
   width: 60%;
   padding: 0;
   margin: 0;
+  font-weight: 400;
 }
 
 .table {
@@ -199,6 +183,7 @@ a:hover {
   flex: 1 1 auto;
   font-style: normal;
   margin: 20px 0;
+  font-weight: 400;
 }
 
 .table__text:last-child {
@@ -232,6 +217,7 @@ a:hover {
   font-size: 36px;
   line-height: 51px;
   text-align: center;
+  font-weight: 400;
 }
 .feynman__link {
   font-size: 36px;
@@ -240,6 +226,8 @@ a:hover {
   right: 48px;
   top: 50%;
   color: #2f80ed;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 /* /feynman ---------- */
@@ -306,6 +294,7 @@ a:hover {
   padding: 60px 0 40px 0;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -314,6 +303,7 @@ a:hover {
   width: 90%;
 }
 .footer__column {
+  display: flex;
   flex-direction: column;
 }
 .footer__column_content_copyright {
@@ -328,6 +318,7 @@ a:hover {
   line-height: 25px;
   margin: 18px 0;
   padding: 0;
+  font-weight: 400;
 }
 
 .footer__column-heading {
@@ -343,11 +334,14 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
+  list-style: none;
 }
 .footer__column-link {
   color: #ffff;
   font-size: 18px;
   line-height: 30px;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .footer__social-icon {
